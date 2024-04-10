@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "newman run Frutas_API_V2.postman_collection.json",
+    "test-report": "newman run Frutas_API_V2.postman_collection.json -r htmlextra --reporter-htmlextra-export testResult/report.html"
+
+  },
+  "dependencies": {
+    "newman": "^6.1.2",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
